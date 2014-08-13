@@ -1,0 +1,4 @@
+freedom
+=======
+
+A freedom word.
