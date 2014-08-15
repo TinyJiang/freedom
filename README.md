@@ -1,4 +1,4 @@
 freedom
 =======
 
-A freedom word.
+A freedom world.

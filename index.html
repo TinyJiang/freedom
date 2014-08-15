@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Freedom</title>
+	</head>
+	<body>
+		<div id="cnt" class="container-fluid cnt">
+			<div class="row" id="main-cnt"></div>
+			<div class="row" id="foot-cnt">
+				<div class="col-md-6" id="script-cnt">
+					<textarea></textarea>
+					<div class="btns-cnt">
+						<button name="clear" type="button" class="btn btn-default btn-sm">
+							Clear
+						</button>
+						<button name="excute" type="button" class="btn btn-success btn-sm">
+							Excute
+						</button>
+					</div>
+				</div>
+				<div class="col-md-6" id="log-cnt">
+					<textarea readonly></textarea>
+					<div class="btns-cnt">
+						<button name="clear" type="button" class="btn btn-default btn-sm">
+							Clear
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		document.getElementById("cnt").style.height = Math.max(window.innerHeight, document.body.clientHeight) + 'px';
+	</script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script data-main="js/main" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script>
+</html>
